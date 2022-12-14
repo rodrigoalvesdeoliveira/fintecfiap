@@ -1,0 +1,29 @@
+body {
+    background: #00161e;
+    color: #089158;
+    width: 100vh;
+    height: 100vh;
+}
+
+p {
+    margin-bottom: 0.1em;
+}
+
+h1 {
+    font-size: 4em;
+    background: linear-gradient( #089158,  #045734);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.btn-verde {
+    background-color: white;
+    font-weight: bold;
+    color: black;
+}
+
+.btn-verde:hover {
+    background-color: rgb(255, 255, 255);
+    transform: scale(1.05);
+    transition: all 1s;
+}
